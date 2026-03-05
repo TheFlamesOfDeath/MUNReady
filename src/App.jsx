@@ -212,7 +212,8 @@ Respond ONLY with a valid JSON object, no markdown, no backticks:
     method: "POST",
     headers: { "Content-Type": "application/json" },
     body: JSON.stringify({
-      contents: [{ parts: [{ text: prompt }] }]
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { temperature: 0.7 }
     })
   }
 );

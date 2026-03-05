@@ -26,7 +26,7 @@ const GUIDE_SECTIONS = [
     id: "overview", title: "MUN Overview", icon: "◈", color: "#D4AF37",
     content: [
       { type: "intro", text: "MUN spans 2-3 days of formal committee sessions, lobbying, and debate. Here is everything you need to know from prep to awards." },
-      { type: "list", label: "What to expect", items: ["Opening ceremony (first day only)", "Committee sessions — formal participation, monitored by judges", "Breaks for eating and lobbying (informal convincing)", "Social event — usually a concert or formal dinner", "Closing and awards ceremony (last day only)"] },
+      { type: "list", label: "What to expect", items: ["Opening ceremony (first day only)", "Committee sessions  -  formal participation, monitored by judges", "Breaks for eating and lobbying (informal convincing)", "Social event  -  usually a concert or formal dinner", "Closing and awards ceremony (last day only)"] },
       { type: "tip", text: "Dress formally. Suit and tie is the safest choice. First impressions in the committee room matter." },
     ]
   },
@@ -35,7 +35,7 @@ const GUIDE_SECTIONS = [
     content: [
       { type: "intro", text: "You will typically get one week to prepare after receiving your country and committee assignment. Use every day of it." },
       { type: "list", label: "What to prepare", items: ["Opening speech (60-90 seconds, sets your stance)", "5+ moderated caucus topics (MODs)", "Individual framework with a unique name", "Printed research for on-the-spot speeches", "Position paper (if required by the organizer)"] },
-      { type: "block", label: "Position Paper", text: "A position paper outlines your country's stance on the topic, past actions that align with it, and future plans supported by real frameworks. Not always required — check with your organizer." },
+      { type: "block", label: "Position Paper", text: "A position paper outlines your country's stance on the topic, past actions that align with it, and future plans supported by real frameworks. Not always required  -  check with your organizer." },
       { type: "block", label: "MODs (Moderated Caucus Topics)", text: "MODs are broken-down sub-topics of the main issue. For example, if your topic is Digital Inequality, one MOD could be: 'The Lack of Financial Resources to Support Digital Equality.' You need a prepared speech for each MOD you plan to raise. They let you identify loopholes, deepen analysis, and steer the committee." },
       { type: "block", label: "Your Framework", text: "A framework packages all your solutions under a unique name. It shows judges you have thought beyond surface-level fixes and sets you up to lead a working paper. Example: BTCF Framework." },
       { type: "tip", text: "Print your research. Judges notice when delegates speak from notes vs. read off a phone. Physical papers also let you reference data quickly during cross-examination." },
@@ -45,8 +45,8 @@ const GUIDE_SECTIONS = [
     id: "day1", title: "Day 1", icon: "①", color: "#7EC8A4",
     content: [
       { type: "intro", text: "Day one sets the tone. Introduce yourself well, establish your position early, and get onto the General Speakers List." },
-      { type: "list", label: "How the day runs", items: ["Register at the desk — remember your delegate code", "Opening ceremony (not always)", "Directed to your committee room", "Judges ask for introductions", "Motion to establish GSL (General Speakers List)", "Opening speeches begin", "First MODs are definition-based"] },
-      { type: "block", label: "Raising a Motion — Exact Format", text: 'Moderated Caucus:\n"The Delegate of [Country] would like to raise a motion for a Moderated Caucus to discuss [MOD topic] for total time X, individual speaking time Y."\n\nX = total time (usually 10-15 min). Y = per delegate (usually 45-60 sec).\n\nGSL:\n"The Delegate of [Country] would like to raise a motion to establish the General Speakers List."' },
+      { type: "list", label: "How the day runs", items: ["Register at the desk  -  remember your delegate code", "Opening ceremony (not always)", "Directed to your committee room", "Judges ask for introductions", "Motion to establish GSL (General Speakers List)", "Opening speeches begin", "First MODs are definition-based"] },
+      { type: "block", label: "Raising a Motion  -  Exact Format", text: 'Moderated Caucus:\n"The Delegate of [Country] would like to raise a motion for a Moderated Caucus to discuss [MOD topic] for total time X, individual speaking time Y."\n\nX = total time (usually 10-15 min). Y = per delegate (usually 45-60 sec).\n\nGSL:\n"The Delegate of [Country] would like to raise a motion to establish the General Speakers List."' },
       { type: "tip", text: "In Day 1, judges want definition-based MODs. Save your problem-based and solution-focused MODs for Day 2." },
     ]
   },
@@ -55,7 +55,7 @@ const GUIDE_SECTIONS = [
     content: [
       { type: "intro", text: "Day two is where the committee shifts from understanding the problem to forming solutions. Blocs start to solidify." },
       { type: "list", label: "Priorities", items: ["Raise problem-based MODs", "Start identifying bloc partners", "Lobby actively during breaks", "Begin merging frameworks with allies", "Draft or contribute to working papers"] },
-      { type: "block", label: "Working Papers", text: "A working paper compiles the individual frameworks of a bloc into a shared document. Judges begin looking for these by Day 2's second session. Keep the format clean — pre-ambulatory and operative clauses matter." },
+      { type: "block", label: "Working Papers", text: "A working paper compiles the individual frameworks of a bloc into a shared document. Judges begin looking for these by Day 2's second session. Keep the format clean  -  pre-ambulatory and operative clauses matter." },
       { type: "tip", text: "Use unmoderated caucus time aggressively on Day 2. It is your best window to convince undecided delegations and finalize your bloc." },
     ]
   },
@@ -63,8 +63,8 @@ const GUIDE_SECTIONS = [
     id: "day3", title: "Day 3", icon: "③", color: "#E07070",
     content: [
       { type: "intro", text: "The final day. Get as many countries in your bloc as possible, present your Draft Resolution cleanly, and leave a strong impression on judges." },
-      { type: "list", label: "Final day flow", items: ["Continue lobbying — every vote counts", "Begin Draft Resolution by second session", "Assign roles: 1-2 presenters, 1-2 for cross-examination", "DR needs at least 50% of committee votes to pass", "Third session: DR presentation and judge assessment", "Social event, then awards ceremony"] },
-      { type: "block", label: "Draft Resolution Format", text: "Your DR must follow formal UN formatting with pre-ambulatory clauses (describing the problem) and operative clauses (outlining solutions). Judges assess your bloc on format as much as content. Rehearse the presentation — judges will ask cross-examination questions designed to catch you off guard." },
+      { type: "list", label: "Final day flow", items: ["Continue lobbying  -  every vote counts", "Begin Draft Resolution by second session", "Assign roles: 1-2 presenters, 1-2 for cross-examination", "DR needs at least 50% of committee votes to pass", "Third session: DR presentation and judge assessment", "Social event, then awards ceremony"] },
+      { type: "block", label: "Draft Resolution Format", text: "Your DR must follow formal UN formatting with pre-ambulatory clauses (describing the problem) and operative clauses (outlining solutions). Judges assess your bloc on format as much as content. Rehearse the presentation  -  judges will ask cross-examination questions designed to catch you off guard." },
       { type: "tip", text: "By the third session, judges are finalizing awards. Be present, be vocal, and back up your bloc's DR confidently." },
     ]
   },
@@ -72,8 +72,8 @@ const GUIDE_SECTIONS = [
     id: "alliances", title: "Forming Alliances", icon: "◎", color: "#60C8E8",
     content: [
       { type: "intro", text: "Alliances are built before the gavel even drops. The delegate who lobbies hardest wins more often than the delegate who speaks best." },
-      { type: "list", label: "Alliance strategy", items: ["Start lobbying before the opening ceremony", "Use lunch breaks to approach undecided or newer delegates", "Acknowledge good solutions in speeches — it builds goodwill", "Use Unmoderated Caucus for convincing, not resting", "Use Consultation of the Whole to swing undecided countries"] },
-      { type: "block", label: "The Chit System — Most Important Tool", text: '50% of your MUN is done through chits.\n\nFold the chit so the outside reads:\nFrom: [Your Country] → To: [Target Country]\n\nPass them during formal sessions. Use them to share arguments, propose alliances, counter other blocs, and coordinate speeches. Be concise but convincing — you have one line to make your case.' },
+      { type: "list", label: "Alliance strategy", items: ["Start lobbying before the opening ceremony", "Use lunch breaks to approach undecided or newer delegates", "Acknowledge good solutions in speeches  -  it builds goodwill", "Use Unmoderated Caucus for convincing, not resting", "Use Consultation of the Whole to swing undecided countries"] },
+      { type: "block", label: "The Chit System  -  Most Important Tool", text: '50% of your MUN is done through chits.\n\nFold the chit so the outside reads:\nFrom: [Your Country] → To: [Target Country]\n\nPass them during formal sessions. Use them to share arguments, propose alliances, counter other blocs, and coordinate speeches. Be concise but convincing  -  you have one line to make your case.' },
       { type: "tip", text: "Target first-time delegates early. They are often intimidated and will follow whoever approaches them with confidence and clarity." },
     ]
   },
@@ -188,7 +188,7 @@ export default function MUNReady() {
     const prompt = `You are a world-class MUN coach. Generate a complete research brief for a delegate representing ${country} in ${finalCommittee} on: "${topic}".
 
 STRICT RULES:
-- ZERO em dashes (no — or --). Use commas, colons, or periods instead.
+- ZERO em dashes (no  -  or --). Use commas, colons, or periods instead.
 - ZERO filler: no "it is worth noting", "it is important to", "in conclusion", "needless to say".
 - Include real statistics, percentages, year-referenced data, UN resolution numbers wherever possible.
 - Tone: ${toneMap[tone]}.
@@ -385,7 +385,7 @@ setStage(2);
             <div style={{ marginBottom: 10 }}>
               <span style={{ display: "inline-block", padding: "5px 14px", border: "1px solid rgba(212,175,55,0.32)", borderRadius: 2, color: "#D4AF37", fontSize: 11, fontFamily: "monospace", letterSpacing: "0.14em", textTransform: "uppercase" }}>Complete Handbook</span>
             </div>
-            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 30, fontWeight: 900, margin: "12px 0 8px", background: "linear-gradient(135deg, #fff 0%, #D4AF37 70%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>MUN 101</h2>
+            <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 30, fontWeight: 900, margin: "12px 0 8px", background: "linear-gradient(135deg, #fff 0%, #D4AF37 70%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>The Complete MUN Handbook</h2>
             <p style={{ color: "rgba(255,255,255,0.38)", fontSize: 14, margin: "0 0 28px", fontStyle: "italic", lineHeight: 1.7 }}>Everything from preparation to Draft Resolutions, in order.<br />Click any section to expand it.</p>
             {GUIDE_SECTIONS.map(s => <GuideSection key={s.id} section={s} />)}
             <div style={{ marginTop: 28, padding: "18px 20px", background: "rgba(212,175,55,0.03)", border: "1px solid rgba(212,175,55,0.12)", borderRadius: 8 }}>
@@ -393,7 +393,7 @@ setStage(2);
               {[["How to Write a Position Paper", "wisemee.com/how-to-write-a-mun-position-paper"], ["How to Write a Resolution", "bestdelegate.com/model-un-made-easy-how-to-write-a-resolution"], ["Choosing a Study Guide Topic", "wisemee.com/choosing-a-mun-study-guide-topic"]].map(([label, url]) => (
                 <div key={url} style={{ display: "flex", alignItems: "center", gap: 8, marginBottom: 8 }}>
                   <span style={{ color: "rgba(212,175,55,0.45)", fontSize: 7 }}>◆</span>
-                  <span style={{ color: "rgba(255,255,255,0.45)", fontSize: 13 }}>{label} <span style={{ color: "rgba(255,255,255,0.22)", fontFamily: "monospace", fontSize: 11 }}>— {url}</span></span>
+                  <span style={{ color: "rgba(255,255,255,0.45)", fontSize: 13 }}>{label} <span style={{ color: "rgba(255,255,255,0.22)", fontFamily: "monospace", fontSize: 11 }}> -  {url}</span></span>
                 </div>
               ))}
             </div>
@@ -405,17 +405,17 @@ setStage(2);
           <div style={{ paddingTop: "7vh", paddingBottom: "10vh", animation: "fadeUp 0.5s ease" }}>
             <div style={{ display: "flex", flexDirection: "column", alignItems: "center", textAlign: "center", marginBottom: 44 }}>
               <div style={{ width: 70, height: 70, borderRadius: "50%", background: "linear-gradient(135deg, #D4AF37, #8B6914)", display: "flex", alignItems: "center", justifyContent: "center", fontSize: 26, fontFamily: "'Playfair Display', serif", fontWeight: 900, marginBottom: 18, boxShadow: "0 0 40px rgba(212,175,55,0.18)", color: "#0B0F1A" }}>S</div>
-              <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 900, margin: "0 0 6px" }}>Salaar</h2>
-              <p style={{ color: "rgba(255,255,255,0.38)", fontSize: 14, fontStyle: "italic", margin: "0 0 16px" }}>Student · Debater · Builder · Karachi</p>
+              <h2 style={{ fontFamily: "'Playfair Display', serif", fontSize: 28, fontWeight: 900, margin: "0 0 6px" }}>Salaar Adnan Shekhani</h2>
+              <p style={{ color: "rgba(255,255,255,0.38)", fontSize: 14, fontStyle: "italic", margin: "0 0 16px" }}>Debater · Builder · Karachi</p>
               <div style={{ display: "flex", gap: 8, flexWrap: "wrap", justifyContent: "center" }}>
-                {["TLT Class of 2028", "IGCSE", "Law Society Founder", "MUN Competitor"].map(tag => <Badge key={tag} text={tag} color="rgba(255,255,255,0.25)" />)}
+                {["Student", "Rowing Captain", "Law Society Founder", "MUN Competitor"].map(tag => <Badge key={tag} text={tag} color="rgba(255,255,255,0.25)" />)}
               </div>
             </div>
 
             <div style={{ height: 1, background: "linear-gradient(90deg, transparent, #D4AF37, transparent)", marginBottom: 36 }} />
 
             {[
-              { color: "#D4AF37", icon: "◈", title: "Why I built MUNReady", text: "Every MUN delegate — including me — spends hours preparing the same things from scratch before every conference. Country positions. Opening statements. MODs. The research is repetitive, and it eats up time that should go toward strategy and lobbying. I built MUNReady to fix that. Enter your assignment, get your complete brief, spend your prep time where it actually counts." },
+              { color: "#D4AF37", icon: "◈", title: "Why I built MUNReady", text: "Every MUN delegate  -  including me  -  spends hours preparing the same things from scratch before every conference. Country positions. Opening statements. MODs. The research is repetitive, and it eats up time that should go toward strategy and lobbying. I built MUNReady to fix that. Enter your assignment, get your complete brief, spend your prep time where it actually counts." },
               { color: "#7EC8A4", icon: "◉", title: "Lycourt Moot Trials", text: "I led my school's team at Lyceum's Lycourt Moot Trials, competing against established law societies from across Karachi. That experience showed me how much preparation separates strong delegations from average ones, and how few students have access to structured prep resources. MUNReady is my answer to that gap." },
               { color: "#A09BE7", icon: "◎", title: "TLT Law Society", text: "I am founding the Law Society at TLT, focused on legal literacy for all students, not just those planning careers in law. The same problem I see in MUN prep exists in legal education: students lack access to clear, structured knowledge. Both are worth fixing, and both start with building something useful." },
               { color: "#60C8E8", icon: "◆", title: "What's next", text: "The goal is to make MUNReady the standard research tool for delegates across Pakistan. Upcoming: a draft resolution builder, bloc strategy simulator, and framework generator. If you are an MUN organizer, society lead, or school that wants to partner or give feedback, reach out." },

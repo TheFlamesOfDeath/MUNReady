@@ -180,9 +180,9 @@ export default function MUNReady() {
     if (!country.trim() || !finalCommittee.trim() || !topic.trim()) { setError("Please fill in all three fields."); return; }
     setError(""); setLoading(true); setResult(null);
     const toneMap = {
-      assertive: "bold, direct, and unapologetic. Make strong claims, use commanding language, do not hedge",
-      diplomatic: "measured and coalition-focused. Acknowledge other perspectives while firmly advancing the delegation's interests",
-      aggressive: "confrontational and pressure-heavy. Challenge opposing delegations, use urgent language, frame inaction as unacceptable",
+      assertive: "use emotional rhetoric hooks, bold, direct, and unapologetic. Make strong claims, use commanding language, do not hedge",
+      diplomatic: "use emotional rhetoric hooks, measured and coalition-focused. Acknowledge other perspectives while firmly advancing the delegation's interests",
+      aggressive: "use emotional rhetoric hooks, confrontational and pressure-heavy. Challenge opposing delegations, use urgent language, frame inaction as unacceptable",
       neutral: "balanced and procedural. Rely on facts, cite process, avoid emotional language",
     };
     const prompt = `You are a world-class MUN coach. Generate a complete research brief for a delegate representing ${country} in ${finalCommittee} on: "${topic}".
@@ -201,7 +201,7 @@ Respond ONLY with a valid JSON object, no markdown, no backticks:
   "arguments": "4 numbered arguments (1. 2. 3. 4.). Each 2 sentences. Specific to ${country}'s foreign policy. Data in at least 2 arguments. No em dashes.",
   "opening_statement": "Exactly ${wordCount} words. Starts: Honorable Chair, Distinguished Delegates. Tone: ${toneMap[tone]}. No em dashes. No filler. At least 3 statistics. Rhetorical call to action at the end.",
   "position_paper": "350-400 words. Three sections labeled: BACKGROUND, ${country.toUpperCase()}'S POSITION, PROPOSED SOLUTIONS. No em dashes. No filler. Cite real UN resolutions or treaties. Include statistics.",
-  "caucus_topics": "5 moderated caucus topics. Numbered 1 to 5, each on its own line. Each is one specific debatable sentence a chair reads aloud. Topics get progressively more specific.",
+  "caucus_topics": "5 moderated caucus topics. Numbered 1 to 5, each on its own line. keep them simple and vague for moderated caucses for example - discussing the human rights violations in the us/iran conlfict",
   "allies": "3-4 countries likely to align with ${country}. One sentence per country referencing a shared policy, treaty, or interest.",
   "opponents": "2-3 countries likely to oppose ${country}. One sentence each with a specific reason."
 }`;
@@ -417,8 +417,6 @@ setStage(2);
 
             {[
               { color: "#D4AF37", icon: "◈", title: "Why I built MUNReady", text: "Every MUN delegate  -  including me  -  spends hours preparing the same things from scratch before every conference. Country positions. Opening statements. MODs. The research is repetitive, and it eats up time that should go toward strategy and lobbying. I built MUNReady to fix that. Enter your assignment, get your complete brief, spend your prep time where it actually counts." },
-              { color: "#7EC8A4", icon: "◉", title: "Lycourt Moot Trials", text: "I led my school's team at Lyceum's Lycourt Moot Trials, competing against established law societies from across Karachi. That experience showed me how much preparation separates strong delegations from average ones, and how few students have access to structured prep resources. MUNReady is my answer to that gap." },
-              { color: "#A09BE7", icon: "◎", title: "TLT Law Society", text: "I am founding the Law Society at TLT, focused on legal literacy for all students, not just those planning careers in law. The same problem I see in MUN prep exists in legal education: students lack access to clear, structured knowledge. Both are worth fixing, and both start with building something useful." },
               { color: "#60C8E8", icon: "◆", title: "What's next", text: "The goal is to make MUNReady the standard research tool for delegates across Pakistan. Upcoming: a draft resolution builder, bloc strategy simulator, and framework generator. If you are an MUN organizer, society lead, or school that wants to partner or give feedback, reach out." },
             ].map(card => (
               <div key={card.title} style={{ background: "rgba(255,255,255,0.02)", border: `1px solid ${card.color}22`, borderLeft: `3px solid ${card.color}`, borderRadius: 8, padding: "20px 22px", marginBottom: 14 }}>
